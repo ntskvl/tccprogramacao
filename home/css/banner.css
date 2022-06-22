@@ -1,0 +1,45 @@
+.preview {
+    position: relative;
+    font-family: 'Varela Round', sans-serif;
+}
+.preview-video {
+    width: 100%;
+    height: 80vh;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    object-position: top;
+    
+}
+
+.preview-info {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    top: 27vh;
+    padding: 0 5vh;
+   
+}
+
+
+.preview-title {
+    width: 100%;
+}
+
+.preview-text {
+    font-size: calc(0.8rem + 1vw);
+    width: 100%;
+}
+
+@media (max-width: 394px){
+    .preview-video {
+        width: 102%;
+        height: 80vh;
+        top: 0;
+        left: 0;
+        object-fit: cover;
+        object-position: top;
+        
+    }
+}

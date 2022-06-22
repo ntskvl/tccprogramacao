@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/f32364aecd.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/icon.css">
+    <link rel="stylesheet" href="/header-main/css/fale.css">
+    <link rel="stylesheet" href="css/fale.css">
+   
+
+    <title>BURGERFLIX</title>
+</head>
+<body>
+    <header class="caixa">
+        <div class="caixa-cabecalho"> 
+            <img src="./img/logou.png" alt="" class="logo1">
+           
+            <nav class="caixa-nav">
+               
+              <ul class="caixa-ul">
+                    <i class="fa-solid fa-house" id="icons"></i>
+                    <a href="#ban"><li class="caixa-li">Home</li></a>
+
+                    <i class="fa-solid fa-circle-info" id="icons"></i>
+                    <a href=""><li class="caixa-li">Sobre<span class="color2"> nós</li></span></a>
+
+                    <i class="fa-solid fa-envelope" id="icons"></i>
+                    <a href=""><li class="caixa-li">Fale <span class="color2">conosco</li></a></span>
+
+                    <nav class="pesquisa">
+                        <input type="text" placeholder="O que você busca?" class="button">
+                    </nav>
+              </ul>
+            </nav>
+        </div>
+    </header>
+    <figure>
+    <img src="banner.png" alt="" class="ImagemDoDannerHeader">
+    </figure>
+    <div class="contato">
+        
+        <section>
+            
+    
+             <h1>Fale Conosco</h1>
+    
+             <p>Rua João Correia, 99, <br> Vila Pirajussara - São Paulo. <br> <br>
+                Seg/Quarta á Domingo <br> das 18:30 ás 00H <br> <br> 
+             11 94893-7640 </p>
+    
+        </section>
+    
+         <article>
+    
+             <form action="#">
+                <label for="Assunto"><strong></strong></label>
+                <br />
+              <form method="post" action="cadastrar-enquete.php">
+    
+                <select name="time">
+                   <option value="Ass">ASSUNTO</option>
+                  <option value="duvi">Duvidas</option>
+                  <option value="Sug">Sugestões</option>
+                  <option value="Elo">Elogios</option>
+                  <option value="Rec">Reclamações</option>
+                </select> <br>
+    
+    
+    
+             <label for="nome"><strong></strong></label><br />
+             <input autocomplete="off" type="text" size=50 name="tNome" id="cNome
+            " required="required" required placeholder="NOME"/>
+             <br>
+    
+            <label for="E-mail"><strong></strong></label><br />
+            <input autocomplete="off" type="text" size=50 name="tNome" id="cNome
+            " required="required" required placeholder="E-MAIL"/>
+    
+             <br>
+            <label for="Telefone"><strong></strong></label><br />
+             <input autocomplete="off" type="text" size=50 name="tNome" id="cNome
+            " required="required" required placeholder="TELEFONE" />
+             <br>
+    
+                <br>
+                <br>
+             <textarea name="message" rows="8" cols="45" placeholder="MENSAGEM!"  required></textarea>
+    
+                <br> <br>
+    
+             <input type="submit" value="Enviar" />
+             <input type="reset" value="Cancelar" />
+             </form>
+             </article>
+        </div>
+
+</body>
+</html>

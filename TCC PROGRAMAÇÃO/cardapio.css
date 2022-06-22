@@ -1,0 +1,209 @@
+body{
+    margin: 0%;
+    background-color: black;
+    
+}
+
+.section_img-banner{
+    width: 100%;
+    margin-left: 14px;
+}
+
+.container{
+    display: flex;
+    margin: 0 10% 0  10%;
+}
+
+.container_img{
+    width: 50%;
+}
+
+
+.cardapio{
+    margin-left: 5%;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+article.cardapio{
+    margin: 0;
+}
+
+.box{
+    margin: 0%;
+    gap: 5%;
+    justify-content: space-around;
+    flex-wrap:wrap;
+
+}
+
+.box > div {
+    flex:  1 1 200px;
+    margin: 15px;
+}
+
+
+.caixa1, .caixa2, .caixa3, .caixa4, .caixa5, .caixa6, .caixa7, .caixa8, .caixa9{
+    background-color: red;
+    border: solid black 1px;
+    width: 30vw;
+    height: 30vh;
+    
+}
+
+.caixa1{
+    grid-area: caixa1;
+    background-image: url(caixa1.png);
+    background-size: cover;
+    background-position: center;
+    background-color: black;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+   
+}
+
+.caixa2{
+    grid-area: caixa2;
+    background-image: url(caixa2.png);
+    background-size: cover;
+    background-position: center;
+    background-color: black;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 15px;
+    
+
+}
+.caixa3{
+    grid-area: caixa3;
+    background-image: url(caixa3.png);
+    background-size: cover;
+    background-position: center;
+    background-color: black;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+
+}
+.caixa4{
+    grid-area: caixa4;
+    background-image: url(caixa4.png);
+    background-size: cover;
+    background-position: center;
+    background-color: black;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+    
+}
+.caixa5{
+    grid-area: caixa5;
+    background-image: url(caixa5.png);
+    background-size: cover;
+    background-position: center;
+    background-color: black;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+.caixa6{
+    grid-area: caixa6;
+    background-image: url(caixa6.png);
+    background-size: cover;
+    background-position: center;
+    background-color: black;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+.caixa7{
+    grid-area: caixa7;
+    background-image: url(caixa7.png);
+    background-size: cover;
+    background-position: center;
+    background-color: black;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+
+.caixa8{
+    grid-area: caixa8;
+    background-image: url(caixa8.png);
+    background-size: cover;
+    background-position: center;
+    background-color: black;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+
+.caixa9{
+    grid-area: caixa9;
+    background-image: url(caixa9.png);
+    background-size: cover;
+    background-position: center;
+    background-color: black;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+
+
+
+.rodape{
+    border: solid black 1px;
+}
+
+@media (max-width:1000px) {
+
+    .bannerimg{
+        width: 100%;
+        height: 200px;
+    }
+
+    body{
+        background-color:black;
+        margin: 0;
+    }
+    .cardapio{
+        margin-left:0;
+        display: flex;
+        height: 100%;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    
+    .box{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap:wrap;
+
+    }
+    
+    .caixa1, .caixa2, .caixa3, .caixa4, .caixa5, .caixa6, .caixa7, .caixa8, .caixa9{
+        border: solid black 1px;
+        width: 100vw;
+        height: 30vh;
+    }
+    
+}
